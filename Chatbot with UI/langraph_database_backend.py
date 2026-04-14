@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 model = ChatGroq(
-    model='meta-llama/llama-4-maverick-17b-128e-instruct',
+    model='llama-3.3-70b-versatile',
 )
 
 class BotState(TypedDict):

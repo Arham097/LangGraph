@@ -22,7 +22,7 @@ weather_api_key = os.getenv("WEATHER_API_KEY")
 # -------------------
 
 model = ChatGroq(
-    model='meta-llama/llama-4-maverick-17b-128e-instruct',
+    model='llama-3.3-70b-versatile',
 )
 
 # -------------------
